@@ -1,0 +1,108 @@
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .hero-left {
+    background-color: #003a0b;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    min-width: 300px;
+  }
+  
+  .custom-heading {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .hero-right {
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/831/621/251/nature-other-wallpaper-preview.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex: 1;
+    min-width: 300px;
+    border-radius: 0 0px 200px 0px;
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .custom-btn {
+    background-color: rgb(0, 174, 32);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-btn:hover {
+    background-color: rgb(0, 150, 28);
+  }
+  
+  .hero-image-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .play-button-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  .play-button {
+    width: 90px;
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    animation: shine 2s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-button::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-left: 18px solid #00ae20;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+  }
+  
+  @keyframes shine {
+    0% {
+      box-shadow: 0 0 10px rgb(255, 255, 255);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(255, 255, 255, 1);
+    }
+    100% {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    }
+  }
+
+  .rating-badge {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 250px; /* adjust size as needed */
+    height: auto;
+  }
+  
+  

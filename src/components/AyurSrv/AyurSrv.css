@@ -1,0 +1,79 @@
+.ayur-col {
+    height: 550px;
+    border-radius: 8px;
+    padding: 20px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    margin-top: 100px;
+  }
+  
+  .col1 {
+    background-color: #ffffff;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .col3 {
+    background-color: #2196f3;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .cards-wrapper {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .info-card {
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .card-white {
+    background-color: #ffffff;
+  }
+  
+  .card-green {
+    background: linear-gradient(135deg, #00ff99, #00c40a); /* Gradient from your green to a lighter green */
+    color: white;
+  }
+  
+  
+  .info-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .info-card h4 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #00c40a;
+  }
+  
+  .info-card p {
+    font-size: 0.9rem;
+    color: #4d4d4d;
+  }
+  
+  .overlap-right {
+    margin-right: -30px;
+    z-index: 3;
+    position: relative;
+  }
+  
+  .title-icon {
+    display: flex;
+    justify-content: flex-start;
+  }
+  

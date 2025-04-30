@@ -1,0 +1,119 @@
+.video-section {
+    min-height: 120vh;
+    background-image: url('https://img.freepik.com/free-photo/still-life-yoga-equipment_23-2151725244.jpg?t=st=1745943848~exp=1745947448~hmac=acbb3d1f33b836600cc2e544c9ffa2881348a926529afcb348ec581a78ced4c6&w=1380');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    padding: 60px 20px 0;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .play-button-top {
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 5;
+  }
+  
+  .play-button-circle {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .play-icon {
+    color: rgb(0, 174, 32);
+    font-size: 1.8rem;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 174, 32, 0.5);
+    }
+    70% {
+      transform: scale(1.1);
+      box-shadow: 0 0 0 15px rgba(0, 174, 32, 0);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 0 0 0 rgba(0, 174, 32, 0);
+    }
+  }
+  
+  .video-content {
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 700px;
+  }
+  
+  .video-heading {
+    font-size: 4.5rem;
+    font-weight: bold;
+  }
+  
+  .video-subheading {
+    font-size: 2.2rem;
+    margin-top: 10px;
+  }
+  
+  .video-btn {
+    background-color: rgb(0, 174, 32);
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .video-btn:hover {
+    background-color: rgb(0, 150, 28);
+  }
+  
+  .bottom-strip {
+    height: 100px;
+    background-color: #00000099;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /* Features Row */
+  .video-features {
+    background-color: #00000080;
+    padding: 40px 0;
+    width: 100%;
+    position: relative;
+    flex-wrap: wrap;
+    gap: 20px;
+    border-radius: 40px;
+  }
+  
+  .feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+  }
+  
+  .feature-icon {
+    font-size: 2rem;
+    color: rgb(0, 174, 32);
+    margin-bottom: 10px;
+  }
+  

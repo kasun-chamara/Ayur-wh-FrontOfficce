@@ -1,0 +1,33 @@
+/* src/components/Header/Header.css */
+.logo {
+    height: 40px;
+  }
+  
+  .custom-navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+  }
+  
+  .custom-navbar .nav-link {
+    font-weight: 500;
+    margin: 0 10px;
+    color: #fff;
+  }
+  
+  .custom-navbar .nav-link:hover {
+    color: #007bff;
+  }
+  
+  .custom-btn {
+    background-color: rgb(0, 174, 32); /* green */
+    color: rgb(255, 255, 255);
+    border: none; /* Removes border */
+    padding: 10px 20px; /* Add padding for a better button appearance */
+    font-weight: bold; /* Bold text */
+    border-radius: 5px; /* Optional: adds rounded corners */
+    transition: background-color 0.3s ease; /* Optional: smooth background color transition */
+  }
+  
+  .custom-btn:hover {
+    background-color: rgb(0, 150, 28); /* Darker green on hover */
+  }

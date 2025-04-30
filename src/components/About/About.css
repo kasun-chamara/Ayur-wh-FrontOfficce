@@ -1,0 +1,76 @@
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    background-color: #ffffff;
+    margin-top: 100px;
+  }
+  
+  .about-left {
+    flex: 1;
+    min-width: 300px;
+    margin-left: 100px;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #003300;
+  }
+  
+  .about-text {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 600px;
+  }
+  
+  .feature-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  
+  .feature-list li {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #006400;
+    font-weight: 500;
+  }
+  
+  .check-icon {
+    color: rgb(0, 174, 32);
+    margin-right: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .about-right {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 50px;
+  }
+  
+  .about-right img {
+    max-width: 90%;
+    height: auto;
+  }
+  
+  .custom-btn {
+    background-color: rgb(0, 174, 32);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 50px;
+  }
+  
+  .custom-btn:hover {
+    background-color: rgb(0, 150, 28);
+  }
+  
