@@ -8,6 +8,7 @@ import VideoSec from './components/VideoSec/VideoSec';
 import AyurSrv from './components/AyurSrv/AyurSrv';
 import WhatAyurOffer from './components/WhatAyurOffer/WhatAyurOffer';
 import Footer from './components/Footer/Footer';
+import WhyChoose from './components/WhyChoose/WhyChoose';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <VideoSec /> 
       <AyurSrv /> 
       <WhatAyurOffer />
+      <WhyChoose />
       <Footer />
       
     </div>

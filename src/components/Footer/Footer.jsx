@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import { FaFacebookF, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -22,11 +23,25 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div className="footer-section contact">
-          <h4>Contact Us</h4>
+        <div className="footer-section contact-info">
+          <h4>Reach Us</h4>
           <p>Email: info@ayurveda.com</p>
           <p>Phone: +94 77 123 4567</p>
           <p>Location: Galle, Sri Lanka</p>
+        </div>
+
+        <div className="footer-section contact-button">
+          <h4>Get in Touch</h4>
+          
+          <div className="social-icons">
+            <a href="#" aria-label="Facebook"><FaFacebookF /></a>
+            <a href="#" aria-label="Instagram"><FaInstagram /></a>
+            <a href="#" aria-label="Twitter"><FaTwitter /></a>
+            <a href="#" aria-label="YouTube"><FaYoutube /></a>
+          </div>
+          <button className="footer-contact-btn" onClick={() => window.location.href = '/contact'}>
+            Contact Us
+          </button>
         </div>
       </div>
 
